@@ -6,7 +6,6 @@
 
 import com.mycompany.bulidingManagement.Config.AppConfig;
 import com.mycompany.bulidingManagement.Polymorphism.Service.Implementation.RMSmallBuilding;
-import com.mycompany.bulidingManagement.Inheritance_Encapsulation.Service.MaintananceLog;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.testng.Assert;

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestReport
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.549 sec <<< FAILURE!
+testPrintReport(TestReport)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.mycompany.bulidingManagement.PLK.Violation.Service.Implementation.Report.PrintReport(Report.java:26)
+	at TestReport.testPrintReport(TestReport.java:37)

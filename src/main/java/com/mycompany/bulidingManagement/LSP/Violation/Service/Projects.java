@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package com.mycompany.bulidingManagement.LSP.Violation.Service;
 
@@ -11,6 +6,9 @@ package com.mycompany.bulidingManagement.LSP.Violation.Service;
  * @author nkosy
  */
 public interface Projects {
+    //Every building has a plumping system that has to be maintained
     public boolean InstallPlumping();
+    
+    //Not every building has an elevator
     public boolean MaintainElevator();   
 }

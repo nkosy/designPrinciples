@@ -16,6 +16,7 @@ import java.util.Scanner;
 public class ProjectFigo implements Projects {
     Scanner input = new Scanner(System.in);
     
+     //Every building has a plumping system that has to be maintained
     public boolean InstallPlumping()
     {
         System.out.println("Please check if All the maintanance for Plumbing has been done\n");
@@ -38,6 +39,7 @@ public class ProjectFigo implements Projects {
             return true;
         return false;
     }
+    
     //Only for buildings with elevators
     public boolean MaintainElevator()
     {
@@ -54,6 +56,4 @@ public class ProjectFigo implements Projects {
             return true;
         return false; 
     }
-    
-    
 }
